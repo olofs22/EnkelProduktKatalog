@@ -46,7 +46,7 @@ namespace EnkelProduktKatalog
             Thread.Sleep(500);
             Console.WriteLine($"Räknar ut totala kosntanden för {Name}--- --- --- --- --- --- --- --- --- --- ---");
             Thread.Sleep(500);
-            Console.WriteLine($"Den totala kostnaden för produkten {Name} är {TotPrice}kr");
+            Console.WriteLine($"\nDen totala kostnaden för produkten {Name} är {TotPrice}kr");
             Thread.Sleep(500);
 
 
