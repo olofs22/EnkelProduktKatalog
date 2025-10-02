@@ -19,7 +19,7 @@ namespace EnkelProduktKatalog
             Produkt1.PrintInfo();
             Produkt1.GetTotalPrice();
 
-            Console.WriteLine("Tryck på valfri knapp för att lägga till en till produkt!");
+            Console.WriteLine("\nTryck på valfri knapp för att lägga till en till produkt!");
             Console.ReadKey();
 
             Product Produkt2 = new Product();
