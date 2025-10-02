@@ -61,7 +61,7 @@ namespace EnkelProduktKatalog
         {
          string File1 = $"\nInfo Produkt 1 --- Produkt-Namn: {Produkt1.Name}, Produkt-Pris: {Produkt1.Price}kr, Produkt-Kvantitet: {Produkt1.Quantity}st | Info Produkt 2 --- Produkt-Namn: {Produkt2.Name}, Produkt-Pris:{Produkt2.Price}kr, Produkt-Kvantitet: {Produkt2.Quantity}st";
             Console.WriteLine($"{File1}");
-            File.WriteAllText($"\nSenaste_inventeringen_{DateTime.Now:yyyy-MM-dd-HH-mm}.txt", File1);
+            File.WriteAllText($"Senaste_inventeringen_{DateTime.Now:yyyy-MM-dd-HH-mm}.txt", File1);
             Console.WriteLine("\nFil med senaste inventering skapad!");
         }
 
